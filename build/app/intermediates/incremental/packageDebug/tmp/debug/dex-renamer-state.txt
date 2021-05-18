@@ -1,0 +1,4 @@
+#Tue May 18 10:23:55 WEST 2021
+base.0=/Users/info/Desktop/tiendo_ui/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
