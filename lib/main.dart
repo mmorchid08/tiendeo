@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tiendo_ui/pages/home_page.dart';
+import 'core/widgets/persistent_bottom_nav_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     theme: ThemeData(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
         primarySwatch: Colors.indigo,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: BottomNavBar(),
     );
   }
 }
-
