@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tiendo_ui/features/home/presentation/pages/explorer_page.dart';
 import 'package:tiendo_ui/widgets/app_bar.dart';
 import 'package:tiendo_ui/widgets/product.dart';
 
@@ -53,9 +54,7 @@ class _HomeTabarPageState extends State<HomeTabarPage> {
               Center(
                 child: Text('It\'s cloudy here'),
               ),
-              Container(
-                color: Colors.pink,
-                child: ProductCard()),
+              EplorerPage(),
               Center(
                 child: Text('It\'s sunny here'),
               ),
